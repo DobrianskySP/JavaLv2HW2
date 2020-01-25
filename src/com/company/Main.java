@@ -21,12 +21,12 @@ public class Main {
         System.out.println("Сумма всех чисел массива поделенная на 2 ровна = " + string.sumofindexarray(string.strIntoInt(string.linetoarray(normal)))); //вывод суммы всех элементов массива поделенные на 2
 
         System.out.println("------------------------------------");
-       // System.out.println(string.linetoarray(manynumbers)); //пример исключения на колличество символов
+        System.out.println(string.linetoarray(manynumbers)); //пример исключения на колличество символов
 
         System.out.println("------------------------------------");
         System.out.println(string.strIntoInt(string.linetoarray(havechars))); //пример исключения на наличие чар символов
 
         System.out.println("------------------------------------");
-      //  System.out.println(string.linetoarray(fewnumbers)); //пример исключения на маленькое количество номеров
+        System.out.println(string.linetoarray(fewnumbers)); //пример исключения на маленькое количество номеров
     }
 }
